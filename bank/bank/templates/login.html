@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<center><h1>LOGIN HERE TO ACCESS employee_TABLE</h1><hr/><br/><br/>
+<form method="POST" class="post-form" action="/login/">
+    {%csrf_token%}
+    <u><h3>Login Here</h3></u><br/>
+    <table>
+        <tr>
+            <td>Uname:</td><td><input type="text" name="uname" placeholder="enter uname here" class="name"></td>
+        </tr>
+        <tr>
+            <td>password:</td><td><input type="password" name="password" placeholder="enter password here" class="name"></td>
+        </tr>
+    </table><br/><br/>
+    <button type="submit">login</button>
+</form>
+</center>
+
+
+</body>
+</html>
