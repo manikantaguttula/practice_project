@@ -56,3 +56,7 @@ def user_logout(request):
 
 def Home(request):
     return render(request,'Home.html')
+
+manikanta
+
+
